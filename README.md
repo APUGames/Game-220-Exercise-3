@@ -5,7 +5,7 @@ Creating a UI sound library
 
 You are tasked with creating User Interface sounds for the menu page and inventory screen of an adventure/survival game. These sounds are _non diagetic_, but they should fit the overall theme of the game, which is "outdoor survival". The client requested that the sounds "sound organic" and "not electronic".
 
-An asset list is provided with a list of requested sounds.
+
 
 
 ### Audio asset requirements
@@ -22,9 +22,22 @@ An asset list is provided with a list of requested sounds.
 ### Communication
 Some `Designer Notes` are included for a couple sounds. Please read these.
 
+
 If needed, please leave any notes on the sounds provided in the `Sound Designer Notes` field.
 
-Notes should be clear in meaning and directed toward the Game Designer in how to use the sound.
+An asset list is provided with a list of requested sounds. **Update `asset-list.tsv` with the filename, and any notes you have for the game designer.** Notes should be clear in meaning and directed toward the Game Designer in how to use the sound.
+
+For example, given this asset list row: 
+
+| Asset Name | Description | Filename | Game Designer Notes | Sound Designer Notes |
+| --- | --- | --- | --- | --- |
+| ui-navigate | When user moves from one UI item to another |  | Something organic | 
+
+You add a `ui-navigate-multiple.wav` and update the row :
+
+| Asset Name | Description | Filename | Game Designer Notes | Sound Designer Notes |
+| --- | --- | --- | --- | --- |
+| ui-navigate | When user moves from one UI item to another | _ui-navigate-1.wav_ | Something organic | _I provided multiple options with 2 seconds between each_ |
 
 If you have any questions about the asset list, please open a github issue on this repo, and mention @nharsch in the comment.
 

@@ -22,9 +22,10 @@ An asset list is provided with a list of requested sounds.
 ### Communication
 Some `Designer Notes` are included for a couple sounds. Please read these.
 
+
 If needed, please leave any notes on the sounds provided in the `Sound Designer Notes` field.
 
-Notes should be clear in meaning and directed toward the Game Designer in how to use the sound.
+**Update `asset-list.tsv` with the filename, and any notes you have for the game designer.** Notes should be clear in meaning and directed toward the Game Designer in how to use the sound.
 
 If you have any questions about the asset list, please open a github issue on this repo, and mention @nharsch in the comment.
 

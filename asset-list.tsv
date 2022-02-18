@@ -1,7 +1,7 @@
 Asset Name	Description	Filename	Game Designer Notes	Sound Designer Notes
-ui-navigate	Page turn		UINavigate	                     longer page turn, maybe slower?
-ui-open	backpack zipper open	UIOpen
-ui-close	backpack zipper UIClose			
-ui-equip	click 			  UIEquip                           i think it's closer, maybe slight echo on click sound?
-ui-cancel	carpet tearing UICancel	                        higher pitch, I had a sound I wanted but didnt apply and can't reproduce.  
-ui-error	lock turning  UIError
+ui-navigate	When user moves from one UI item to another	UINavigate.wav		longer page turn, maybe slower?
+ui-open	When user opens a sub menu	UIOpen.wav 	Each submenu is shown as a "bag", so something that reads like a bag being opened	
+ui-close	When user exits a sub menu	UIClose.wav		backpack zipper
+ui-equip	When user selects an item for gameplay	UIEquip.wav		i think it's closer, maybe slight echo on click sound?
+ui-cancel	When user unequips item	UICancel.wav		higher pitch, I had a sound I wanted but didnt apply and can't reproduce.
+ui-error	General purpose error sound. Played when user tries to exit a top level submenu, equip a deactivated item, etc	UIError.wav		lock turning

@@ -1,7 +1,7 @@
-Asset Name	Description	Filename	Game Designer Notes	Sound Designer Notes
-ui-navigate	When user moves from one UI item to another			
-ui-open	When user opens a sub menu		Each submenu is shown as a "bag", so something that reads like a bag being opened	
-ui-close	When user exits a sub menu			
-ui-equip	When user selects an item for gameplay			
-ui-cancel	When user unequips item			
-ui-error	General purpose error sound. Played when user tries to exit a top level submenu, equip a deactivated item, etc			
+Asset Name	Description	Filename	Game Designer Notes	Sound Designer Notes 
+ui-navigate	When user moves from one UI item to another	//	a loud whooshing sound that can be easily looped 	
+ui-open	When user opens a sub menu   	Each submenu is shown as a "bag", so something that reads like a bag being opened	// this has a more muddy sound. This mimics the sound of blood to fit the theme, it may or may not be what the game dasigner is going for in terms of direction. 
+ui-close	When user exits a sub menu	// A dramatic two attack sound. It substains for a bit and is a very harsh sound to fit the theme 		
+ui-equip	When user selects an item for gameplay	// This sound is a short loopable metallic sound. It can be easily repeated if the player were to pick up multiple items at once or go through the different items in the menu		
+ui-cancel	When user unequips item		// This similiar to navigate in terms of the way the sound flows. It is easy to loop and has no substain making it nice for a cancel item. 	
+ui-error	General purpose error sound. Played when user tries to exit a top level submenu, equip a deactivated item, etc	//	a couple note harsh sound that has little substain.	
